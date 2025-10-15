@@ -40,4 +40,10 @@ def filtra_por_paises_y_anyo(poblaciones, anyo, paises):
     return lista
 
 def muestra_evolucion_poblacion(poblaciones, nombre_o_codigo):
-    
+    lista_años =[]
+    lista_habitantes =[]
+    for a in poblaciones:
+        if a.codigo == nombre_o_codigo or a.nombre == nombre_o_codigo:
+            lista_años.append(a.año)
+            lista_habitantes(a.censo)
+    plt.title(titulo)
