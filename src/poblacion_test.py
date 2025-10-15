@@ -6,7 +6,9 @@ def main():
     año = 2016
     #print(calcula_paises(lee_poblaciones(ruta)))
     #print(filtra_por_pais(datos,"ESP"))
-    print(filtra_por_paises_y_anyo(datos,año,paises))
+    #print(filtra_por_paises_y_anyo(datos,año,paises))
+    #muestra_evolucion_poblacion(datos,"ESP")
+    muestra_comparativa_paises_anyo(datos,año,paises)
 
 
 
